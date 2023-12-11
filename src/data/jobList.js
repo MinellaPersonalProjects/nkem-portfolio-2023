@@ -28,8 +28,8 @@ const jobs = [
       "date_range": "02.2022 - 08.2022",
       "description_text": [
         "Developed a new web-based tool using a VueJS frontend and Python backend to generate quarterly summary reports for the organization's resource.",
-        "Collaborated with the Data-Science team and a Senior Software to build customized software products for customers.",
-        "Cultivated familiarity with all stages of the system development lifecycle from requirement gathering to production releases"
+        "Designed and Develivered a range of highly engaging Vue WebApps, showcasing our innovative AI applications",
+        "Demonstrated proficiency in all phases of the system development lifecycle, including requirement gathering, design, development, testing, and production releases."
       ],
       "technologies_used": [
         "Vue",
@@ -46,10 +46,10 @@ const jobs = [
       "job_location": "Chicago,IL",
       "date_range": "06.2021 - 08.2021",
       "description_text": [
-        "Redesigned React JavaScript web application using React TypeScript and improved overall readability and reliability of the application.",
-        "Designed new UI functionality for a web application by including CRUD actions and integrating Django backend to raise application productivity.",
-        "Collaborated with Senior Software Engineer to prepare applications for production environment ",
-        "Cultivated familiarity with cloud computing services by using Google Cloud Platform as a development environment",
+        "Conducted independent research project on adopting a new modern web stack on an existing reference architecture.",
+        "Redesigned a React JavaScript web application using React TypeScript to enhance overall readability and reliability of the application.",
+        "Implemented new UI functionality for a web application, integrating CRUD actions and Django backend to increase application productivity.",
+        "Collaborated closely with a Senior Software Engineer to prepare applications for production environment.",
       ],
       "technologies_used": [
         "JavaScript",
@@ -73,7 +73,8 @@ const jobs = [
       ],
       "technologies_used": [
         "Model Training",
-        "Python"
+        "Python",
+        "VM"
       ]
     }
   }
