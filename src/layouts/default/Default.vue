@@ -4,7 +4,7 @@
 
     <default-view />
 
-    <footer-bar v-if="!smAndDown"/>
+    <footer-bar v-if="smAndDown"/>
   </v-app>
 </template>
 

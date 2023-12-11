@@ -1,7 +1,11 @@
 <script setup>
   import ExperienceDescription from "@/components/ExperienceDescription.vue";
+  import ExperienceSmall from "@/components/ExperienceSmall.vue";
   import { jobList } from "@/data/jobList";
   import {ref} from "vue";
+  import {useTheme} from "vuetify";
+
+  const { smAndDown } = useTheme()
 
   const jobL = new jobList()
   const jobs = jobL.list
@@ -26,7 +30,7 @@
       >Experience</h1>
     </v-col>
     <v-col cols="12">
-      <v-row>
+      <v-row v-if="smAndDown">
         <v-col cols="12" sm="12" md="3" lg="3" xl="3">
           <v-card
             height="450px"
@@ -72,6 +76,37 @@
             </v-card-text>
           </v-card>
         </v-col>
+      </v-row>
+      <v-row v-else>
+        <v-carousel
+          height="500"
+          cycle
+          hide-delimiters
+          show-arrows="hover"
+        >
+          <v-carousel-item
+            v-for="item in jobs"
+            :key="item"
+            class="scrollable-content"
+          >
+            <v-card
+              height="450px"
+              variant="outlined"
+              class="text"
+            >
+              <v-card-text class="scrollable-content">
+                <experience-small
+                :title="item.description.job_title"
+                :company="item.description.company_name"
+                :location="item.description.job_location"
+                :date="item.description.date_range"
+                :text="item.description.description_text"
+                :technologies="item.description.technologies_used"
+              />
+            </v-card-text>
+          </v-card>
+          </v-carousel-item>
+        </v-carousel>
       </v-row>
     </v-col>
     <v-col cols="12">

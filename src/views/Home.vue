@@ -20,7 +20,7 @@ const { smAndDown } = useTheme()
         src="@/assets/Web_Photo_Editor.jpg"
         class="parallax-section"
       >
-        <home-layout v-if="!smAndDown"/>
+        <home-layout v-if="smAndDown"/>
         <home-layout-small v-else/>
       </v-parallax>
     </section>
@@ -69,7 +69,7 @@ const { smAndDown } = useTheme()
       <v-row>
         <v-col cols="12">
           <v-row justify="center">
-            <contact-me v-if="!smAndDown"/>
+            <contact-me v-if="smAndDown"/>
             <contact-me-small v-else />
           </v-row>
         </v-col>

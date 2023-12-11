@@ -12,17 +12,20 @@
         >Some Fun Facts About Me</h1>
       </v-col>
       <v-col cols="12">
-          <v-list>
+          <v-list class="text">
             <v-list-item-title>#1</v-list-item-title>
-            <v-list-item>I wrote a book when I was 12</v-list-item>
+            <v-list-item>I published a novel when I was 12</v-list-item>
           </v-list>
-          <v-list>
+          <v-divider></v-divider>
+          <v-list class="text">
             <v-list-item-title>#2</v-list-item-title>
-            <v-list-item></v-list-item>
+            <v-list-item>I have been teaching myself Japanese . <br/>
+              こ ん に ち は !!</v-list-item>
           </v-list>
-          <v-list>
+          <v-divider></v-divider>
+          <v-list class="text">
             <v-list-item-title>#3</v-list-item-title>
-            <v-list-item></v-list-item>
+            <v-list-item>I am an avid reader, and love fantasy novels</v-list-item>
           </v-list>
       </v-col>
       <v-col cols="12">
