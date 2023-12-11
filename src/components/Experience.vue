@@ -30,7 +30,7 @@
       >Experience</h1>
     </v-col>
     <v-col cols="12">
-      <v-row v-if="smAndDown">
+      <v-row class="hidden-sm-and-down">
         <v-col cols="12" sm="12" md="3" lg="3" xl="3">
           <v-card
             height="450px"
@@ -77,7 +77,7 @@
           </v-card>
         </v-col>
       </v-row>
-      <v-row v-else>
+      <v-row class="hidden-md-and-up">
         <v-carousel
           height="500"
           cycle

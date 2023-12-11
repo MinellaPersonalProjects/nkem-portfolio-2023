@@ -8,7 +8,7 @@ const icons = [
 </script>
 
 <template>
-  <v-footer class="d-flex flex-column">
+  <v-footer class="d-flex flex-column hidden-sm-and-down">
     <div class="bg-white d-flex w-100 align-center px-4">
       <strong>Created by Nkem Mogbo</strong>
 

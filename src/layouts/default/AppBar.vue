@@ -4,10 +4,10 @@
       <v-avatar image="@/assets/NM.png" rounded="0" size="56"></v-avatar>
     </template>
     <v-spacer></v-spacer>
-    <v-btn v-if="smAndDown" class="btn" @click="scrollTo('about')">About</v-btn>
-    <v-btn v-if="smAndDown" class="btn" @click="scrollTo('experience')">Experience</v-btn>
-    <v-btn v-if="smAndDown" class="btn" @click="scrollTo('projects')">Projects</v-btn>
-    <v-btn v-if="smAndDown" class="btn" href="mailto:nmogbo2001@gmail.com">Contact</v-btn>
+    <v-btn class="btn hidden-sm-and-down" @click="scrollTo('about')">About</v-btn>
+    <v-btn class="btn hidden-sm-and-down" @click="scrollTo('experience')">Experience</v-btn>
+    <v-btn class="btn hidden-sm-and-down" @click="scrollTo('projects')">Projects</v-btn>
+    <v-btn class="btn hidden-sm-and-down" href="mailto:nmogbo2001@gmail.com">Contact</v-btn>
     <template v-slot:append>
       <v-btn
         variant="outlined"
@@ -21,12 +21,6 @@
 </template>
 
 <script setup>
-  import {ref} from "vue";
-  import {useTheme} from "vuetify";
-  import {useAppStore} from "@/store/app";
-
-  const { smAndDown } = useTheme()
-  const store = useAppStore()
 
   function scrollTo(value){
     const button = document.getElementById(value);

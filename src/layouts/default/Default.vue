@@ -4,7 +4,7 @@
 
     <default-view />
 
-    <footer-bar v-if="smAndDown"/>
+    <footer-bar/>
   </v-app>
 </template>
 
@@ -12,8 +12,4 @@
   import DefaultBar from './AppBar.vue'
   import DefaultView from './View.vue'
   import FooterBar from "@/layouts/default/FooterBar.vue";
-
-  import {useTheme} from "vuetify";
-
-  const { smAndDown } = useTheme()
 </script>

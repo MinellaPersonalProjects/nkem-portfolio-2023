@@ -3,13 +3,9 @@ import About from "@/components/About.vue";
 import Experience from "@/components/Experience.vue";
 import Projects from "@/components/Projects.vue";
 import ContactMe from "@/components/ContactMe.vue";
-
-import {useTheme} from "vuetify";
 import ContactMeSmall from "@/components/ContactMeSmall.vue";
 import HomeLayout from "@/components/HomeLayout.vue";
 import HomeLayoutSmall from "@/components/HomeLayoutSmall.vue";
-
-const { smAndDown } = useTheme()
 
 </script>
 <template>
@@ -20,8 +16,8 @@ const { smAndDown } = useTheme()
         src="@/assets/Web_Photo_Editor.jpg"
         class="parallax-section"
       >
-        <home-layout v-if="smAndDown"/>
-        <home-layout-small v-else/>
+        <home-layout class="hidden-sm-and-down"/>
+        <home-layout-small class="hidden-md-and-up"/>
       </v-parallax>
     </section>
     <section
@@ -69,8 +65,8 @@ const { smAndDown } = useTheme()
       <v-row>
         <v-col cols="12">
           <v-row justify="center">
-            <contact-me v-if="smAndDown"/>
-            <contact-me-small v-else />
+            <contact-me class="hidden-sm-and-down"/>
+            <contact-me-small class="hidden-md-and-up"/>
           </v-row>
         </v-col>
       </v-row>
