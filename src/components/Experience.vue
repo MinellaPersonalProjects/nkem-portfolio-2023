@@ -81,6 +81,7 @@
         <v-carousel
           height="500"
           cycle
+          :interval="20000"
           hide-delimiter-background
           :show-arrows="false"
         >
