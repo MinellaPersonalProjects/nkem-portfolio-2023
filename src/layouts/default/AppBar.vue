@@ -13,7 +13,6 @@
         variant="outlined"
         color="#FF66CC"
         class="btn"
-        :style="{marginRight: !smAndDown ? '80px':'' }"
         href="https://github.com/MinellaPersonalProjects/nkem-portfilio-2023/blob/main/public/resume.pdf"
         target="_blank"
       >Resume</v-btn>
