@@ -81,8 +81,8 @@
         <v-carousel
           height="500"
           cycle
-          hide-delimiters
-          show-arrows="hover"
+          hide-delimiter-background
+          :show-arrows="false"
         >
           <v-carousel-item
             v-for="item in jobs"
