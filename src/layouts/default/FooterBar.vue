@@ -1,6 +1,5 @@
 <script setup>
 const icons = [
-  {icon: 'mdi-facebook', link: 'https://www.facebook.com/emma.ij.3/'},
   {icon: 'mdi-twitter', link: 'https://x.com/ellatheoffice?s=21&t=BMdb0B_nuVz3JkIfgcV4aQ'},
   {icon: 'mdi-linkedin', link: 'https://www.linkedin.com/in/mogbonkem2001'},
   {icon: 'mdi-youtube', link: 'https://youtube.com/@NkemEllaMogbo?si=MXmW5yDi8OzhjGv8'},
