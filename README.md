@@ -35,9 +35,9 @@
 
 Important things need to be said thrice, so :
 
-**No plagiarizing, please give credit** 
-**No plagiarizing, please give credit** 
-**No plagiarizing, please give credit**
+**No plagiarizing, please give credit** <br/>
+**No plagiarizing, please give credit** <br/>
+**No plagiarizing, please give credit** <br/>
 
 This took time to setup and build and attributions are greatly appreciated 
 
