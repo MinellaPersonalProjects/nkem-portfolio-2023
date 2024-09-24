@@ -1,5 +1,5 @@
 <script setup>
-import { projectList } from "@/data/resume/projectListectList";
+import { projectList } from "@/data/projectList";
 import ProjectCards from "@/components/ProjectCards.vue";
 const projectL = new projectList();
 const projects = projectL.list;
