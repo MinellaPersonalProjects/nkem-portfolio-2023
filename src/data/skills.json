@@ -1,0 +1,17 @@
+{
+    "AWS": "skill-icons:aws-dark",
+    "Terraform": "skill-icons:terraform-light",
+    "JavaScript": "skill-icons:javascript",
+    "Python": "skill-icons:python-dark",
+    "TypeScript": "skill-icons:typescript",
+    "Java": "skill-icons:java-light",
+    "Go": "skill-icons:golang",
+    "Scala": "skill-icons:scala-light",
+    "VueJS": "skill-icons:vuejs-light",
+    "React": "skill-icons:react-light",
+    "Nuxt": "skill-icons:nuxtjs-dark",
+    "Github": "skill-icons:github-dark",
+    "MongoDB": "skill-icons:mongodb",
+    "SQL": "skill-icons:mysql-light",
+    "DynamoDB": "skill-icons:dynamodb-light"
+}

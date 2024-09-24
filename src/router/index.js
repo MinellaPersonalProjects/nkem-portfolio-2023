@@ -14,14 +14,11 @@ const routes = [
         // which is lazy-loaded when the route is visited.
         component: () => import('@/views/Home.vue'),
       },
-      // {
-      //   path: '/about',
-      //   name: 'About',
-      //   // route level code-splitting
-      //   // this generates a separate chunk (Home-[hash].js) for this route
-      //   // which is lazy-loaded when the route is visited.
-      //   component: () => import('@/views/AboutView.vue'),
-      // },
+      {
+        path: '/resume',
+        name: 'Resume',
+        component: () => import('@/views/Resume.vue'),
+      },
       // {
       //   path: '/experience',
       //   name: 'Experience',

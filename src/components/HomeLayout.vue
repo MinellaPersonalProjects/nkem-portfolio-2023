@@ -11,8 +11,8 @@ const store = useAppStore()
         <v-col cols="12" sm="12" md="12" lg="12">
           <h4 class="hello" style="color: #333333"> Hi, my name is </h4>
           <h1 class="name" style="color: #333333">NKEM MOGBO</h1>
-          <h4 class="job" style="color: #333333">I am a software engineer skilled in full-stack development and AI platform engineering.
-            I build applications and infrastructure that seamlessly integrate AI models, ensuring optimal performance and delivering efficient solutions.</h4>
+          <h4 class="job" style="color: #333333">I'm a software engineer with deep expertise in full-stack development and cloud infrastructure automation using Infrastructure as Code (IaC).
+            I specialize in designing and implementing scalable applications, while optimizing cloud environments for efficiency and reliability.</h4>
         </v-col>
         <v-col cols="12">
           <v-btn
