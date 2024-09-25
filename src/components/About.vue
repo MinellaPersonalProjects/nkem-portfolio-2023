@@ -44,22 +44,6 @@
               in the transformative power of technology.
             </p>
             <br />
-            <v-card color="#de8ed3" class="text mt-6" variant="outlined">
-              <v-card-title>Check out my Blog</v-card-title>
-              <v-card-text
-                >A tech blog for handy tips, tech insights, and fun programming
-                projects.</v-card-text
-              >
-              <div>
-                <v-btn
-                  variant="tonal"
-                  class="mb-5"
-                  href="https://nkems-tech-teachings.com"
-                >
-                  Let's Go !
-                </v-btn>
-              </div>
-            </v-card>
           </v-card-text>
         </v-card>
       </v-col>
