@@ -1,55 +1,34 @@
 <script setup>
 import About from "@/components/About.vue";
-import Experience from "@/components/Experience.vue";
+import Skills from "@/components/Skills.vue";
 import Projects from "@/components/Projects.vue";
 import ContactMe from "@/components/ContactMe.vue";
 import ContactMeSmall from "@/components/ContactMeSmall.vue";
 import HomeLayout from "@/components/HomeLayout.vue";
 import HomeLayoutSmall from "@/components/HomeLayoutSmall.vue";
-
 </script>
 <template>
   <v-container fluid class="overall">
-    <section id="home" style="min-height: 100vh;">
+    <section id="home" style="min-height: 100vh">
       <v-parallax
         dark
         src="@/assets/Web_Photo_Editor.jpg"
         class="parallax-section"
       >
-        <home-layout class="hidden-sm-and-down"/>
-        <home-layout-small class="hidden-md-and-up"/>
+        <home-layout class="hidden-sm-and-down" />
+        <home-layout-small class="hidden-md-and-up" />
       </v-parallax>
     </section>
-    <section
-      style="min-height: 100vh;"
-      id="about"
-      class="gradient-background">
+    <section style="min-height: 100vh" id="about" class="gradient-background">
       <v-row>
         <v-col cols="12">
           <v-row justify="center">
-            <about/>
+            <about />
           </v-row>
         </v-col>
       </v-row>
     </section>
-    <section
-      id="experience"
-      style="min-height: 100vh;"
-      class="white-back"
-    >
-      <v-row>
-        <v-col cols="12">
-          <v-row justify="center">
-            <experience />
-          </v-row>
-        </v-col>
-      </v-row>
-    </section>
-    <section
-      id="projects"
-      style="min-height: 100vh;"
-      class="clean-section"
-      >
+    <section id="projects" style="min-height: 100vh" class="white-back">
       <v-row>
         <v-col cols="12">
           <v-row justify="center">
@@ -58,15 +37,25 @@ import HomeLayoutSmall from "@/components/HomeLayoutSmall.vue";
         </v-col>
       </v-row>
     </section>
-    <section
-      id="contact"
-      style="min-height: 100vh;"
-      class="gradient-background-section">
+    <section id="experience" style="min-height: 100vh" class="clean-section">
       <v-row>
         <v-col cols="12">
           <v-row justify="center">
-            <contact-me class="hidden-sm-and-down"/>
-            <contact-me-small class="hidden-md-and-up"/>
+            <skills />
+          </v-row>
+        </v-col>
+      </v-row>
+    </section>
+    <section
+      id="contact"
+      style="min-height: 100vh"
+      class="gradient-background-section"
+    >
+      <v-row>
+        <v-col cols="12">
+          <v-row justify="center">
+            <contact-me class="hidden-sm-and-down" />
+            <contact-me-small class="hidden-md-and-up" />
           </v-row>
         </v-col>
       </v-row>
@@ -74,7 +63,6 @@ import HomeLayoutSmall from "@/components/HomeLayoutSmall.vue";
   </v-container>
 </template>
 <style scoped>
-
 html,
 body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
@@ -82,7 +70,7 @@ body {
 }
 
 .parallax-section::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -94,7 +82,7 @@ body {
 }
 
 .gradient-background {
-  background: linear-gradient(to bottom, #ecc1d5, #F5F5DC 33%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, #ecc1d5, #f5f5dc 33%, #ffffff 100%);
   min-height: 400px;
 }
 
@@ -105,19 +93,24 @@ body {
 
 /* New section with a clean, light background that starts with a transparent gradient to white/light grey */
 .clean-section {
-  background: linear-gradient(to bottom, #FFFFFF 0%, #F5F5DC 67%, #ecc1d5 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f5f5dc 67%, #ecc1d5 100%);
   min-height: 400px; /* Adjust height as necessary */
 }
 
 .gradient-background-section {
   height: 500px; /* Adjust as needed */
-  background-image: linear-gradient(to bottom, rgb(236, 193, 213), rgba(255, 255, 255, 0)), url('@/assets/Web_Photo_Editor.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgb(236, 193, 213),
+      rgba(255, 255, 255, 0)
+    ),
+    url("@/assets/Web_Photo_Editor.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.overall{
+.overall {
   padding: 0;
 }
 
@@ -130,7 +123,7 @@ body {
 
 .typeEffect__hi::after,
 .typeEffect__1::after {
-  content: ''; /* This is used for the cursor */
+  content: ""; /* This is used for the cursor */
   display: inline-block;
   width: 2px;
   background-color: black; /* Cursor color */
@@ -151,10 +144,12 @@ body {
 }
 
 @keyframes blink {
-  0%, 45% {
+  0%,
+  45% {
     opacity: 0; /* Make the cursor invisible */
   }
-  50%, 100% {
+  50%,
+  100% {
     opacity: 1; /* Make the cursor visible */
   }
 }
@@ -171,8 +166,6 @@ body {
     width: 100%; /* Adjust this value to control how much text appears */
   }
 }
-
-
 
 .more-btn {
   text-transform: unset !important;

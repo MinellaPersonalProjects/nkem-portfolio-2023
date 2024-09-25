@@ -13,31 +13,21 @@ const routes = [
         // this generates a separate chunk (Home-[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import('@/views/Home.vue'),
+        meta: {
+          layout: "default"
+        }
       },
-      // {
-      //   path: '/about',
-      //   name: 'About',
-      //   // route level code-splitting
-      //   // this generates a separate chunk (Home-[hash].js) for this route
-      //   // which is lazy-loaded when the route is visited.
-      //   component: () => import('@/views/AboutView.vue'),
-      // },
-      // {
-      //   path: '/experience',
-      //   name: 'Experience',
-      //   // route level code-splitting
-      //   // this generates a separate chunk (Home-[hash].js) for this route
-      //   // which is lazy-loaded when the route is visited.
-      //   component: () => import('@/views/ExpView.vue'),
-      // },
-      // {
-      //   path: '/projects',
-      //   name: 'Project',
-      //   // route level code-splitting
-      //   // this generates a separate chunk (Home-[hash].js) for this route
-      //   // which is lazy-loaded when the route is visited.
-      //   component: () => import('@/views/ProjectView.vue'),
-      // },
+    ],
+  },
+  {
+    path: '/resume',
+    component: () => import('@/layouts/resume/Default.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Resume',
+        component: () => import('@/views/Resume.vue'),
+      },
     ],
   },
 ]
