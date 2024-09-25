@@ -1,7 +1,12 @@
 <template>
   <v-app-bar flat>
     <template v-slot:prepend>
-      <v-avatar image="@/assets/NM.png" rounded="0" size="56"></v-avatar>
+      <v-avatar
+        image="@/assets/NM.png"
+        rounded="0"
+        size="56"
+        @click="scrollTo('home')"
+      ></v-avatar>
     </template>
     <v-spacer></v-spacer>
     <v-btn class="btn hidden-sm-and-down" @click="scrollTo('about')"
@@ -13,18 +18,13 @@
     <v-btn class="btn hidden-sm-and-down" @click="scrollTo('experience')"
       >Skills</v-btn
     >
-    <v-btn class="btn hidden-sm-and-down" href="mailto:nmogbo2001@gmail.com"
+    <!-- <v-btn class="btn hidden-sm-and-down" href="mailto:nmogbo2001@gmail.com"
       >Contact</v-btn
-    >
+    > -->
     <template v-slot:append>
-      <v-btn
-        variant="outlined"
-        color="#FF66CC"
-        class="btn"
-        href="https://github.com/MinellaPersonalProjects/nkem-portfilio-2023/blob/main/public/resume.pdf"
-        target="_blank"
-        >Resume</v-btn
-      >
+      <router-link to="/resume">
+        <v-btn variant="outlined" color="#FF66CC" class="btn">Resume</v-btn>
+      </router-link>
     </template>
   </v-app-bar>
 </template>

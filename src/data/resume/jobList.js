@@ -1,15 +1,15 @@
 const jobs = [
   {
     "name": "Software Engineer at CCC",
-    "description" : {
+    "description": {
       "job_title": "Associate Software Engineer",
       "company_name": "CCC Intelligent Solutions",
-      "job_location": "Chicago,IL",
-      "date_range": "08.2022 - Present",
+      "job_location": "Chicago, IL",
+      "date_range": "August 2022 - Present",
       "description_text": [
-        "Collaborate with other developers to create enterprise class, hosted solutions that cover diverse environments and service tens of thousands of end-users." ,
-        "Design and develop cloud automation and infrastructure for production environments utilizing infrastructure management tool Terraform, and cloud-service platform AWS and its various products" ,
-        "Utilize understandings of machine learning inference and develop automations in Golang and Terraform to deploy machine learning models",
+        "Developed and designed cloud automation and infrastructure for production environments using the infrastructure management tool, Terraform, and various AWS Cloud products.",
+        "Implemented performance optimization tactics by integrating robust error handling, testing, metrics, and logging capabilities using Python, Terraform, and AWS Cloudwatch.",
+        "Collaborated with my team to develop a cutting-edge AI Platform, with enhanced machine learning capabilities and efficiently handling of high production traffic.",
       ],
       "technologies_used": [
         "Terraform",
@@ -21,15 +21,15 @@ const jobs = [
   },
   {
     "name": "Intern at CCC",
-    "description" : {
+    "description": {
       "job_title": "AI Enablement Intern",
       "company_name": "CCC Intelligent Solutions",
-      "job_location": "Chicago,IL",
-      "date_range": "02.2022 - 08.2022",
+      "job_location": "Chicago, IL",
+      "date_range": "February 2022 - August 2022",
       "description_text": [
-        "Developed a new web-based tool using a VueJS frontend and Python backend to generate quarterly summary reports for the organization's resource.",
-        "Designed and Develivered a range of highly engaging Vue WebApps, showcasing our innovative AI applications",
-        "Demonstrated proficiency in all phases of the system development lifecycle, including requirement gathering, design, development, testing, and production releases."
+        "Designed and delivered web applications utilizing Vue, Javascript and Python; resulting in increased outreach by showcasing  product features and use cases firsthand.",
+        "Built and launched a web app for efficient resource management using Vue, Python, Docker, and Kubernetes, streamlining workflows and enhancing operational efficiency",
+        "Collaborated with cross-functional teams to gather requirements, document specifications, and ensure seamless integration of front-end components with back-end systems."
       ],
       "technologies_used": [
         "Vue",
@@ -40,16 +40,15 @@ const jobs = [
   },
   {
     "name": "Intern at OntoAdaptive",
-    "description" : {
+    "description": {
       "job_title": "Software Engineering Intern",
       "company_name": "OntoAdaptive LLC",
-      "job_location": "Chicago,IL",
-      "date_range": "06.2021 - 08.2021",
+      "job_location": "Chicago, IL",
+      "date_range": "June 2021 - August 2021",
       "description_text": [
-        "Conducted independent research project on adopting a new modern web stack on an existing reference architecture.",
-        "Redesigned a React JavaScript web application using React TypeScript to enhance overall readability and reliability of the application.",
-        "Implemented new UI functionality for a web application, integrating CRUD actions and Django backend to increase application productivity.",
-        "Collaborated closely with a Senior Software Engineer to prepare applications for production environment.",
+        "Conducted independent research project on adopting a new modern web stack based on TypeScript to an existing reference architecture.",
+        "Implemented new UI functionality for a web application, using React, TypeScript and Django backend to increase application productivity.",
+        "Demonstrated proficiency in cloud computing services by utilizing Google Cloud Platform as a development environment.",
       ],
       "technologies_used": [
         "JavaScript",
@@ -61,11 +60,11 @@ const jobs = [
   },
   {
     "name": "Research Assistant",
-    "description" : {
+    "description": {
       "job_title": "Research Assistant",
       "company_name": "Loyola University Chicago",
-      "job_location": "Chicago,IL",
-      "date_range": "06.2021 - 08.2021",
+      "job_location": "Chicago, IL",
+      "date_range": "June 2021 - August 2021",
       "description_text": [
         "Developed a comprehensive research proposal on the effectiveness of DNS over HTTP, securing a $1,000 grant to support the project.",
         "Successfully acquired relevant data sets to substantiate the research theorem and improve the training algorithm.",
@@ -74,7 +73,7 @@ const jobs = [
       "technologies_used": [
         "Model Training",
         "Python",
-        "VM"
+        "Virtual Machines"
       ]
     }
   }
@@ -84,7 +83,7 @@ export class jobList {
     this.list = jobs
   }
 
-  getNames(){
+  getNames() {
     return this.list.map(item => item.name);
   }
 
