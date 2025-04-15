@@ -1,18 +1,19 @@
 <script setup>
 import { ref } from "vue";
-import { schools, objective, skills } from "@/data/resume/main";
+import { schools, objective, skills_grouped } from "@/data/resume/main";
 import { jobList } from "@/data/resume/jobList";
 import EdSection from "@/components/resume/Education.vue";
 import JobHeader from "@/components/resume/Header.vue";
 import JobList from "@/components/resume/Job.vue";
 import Objective from "@/components/resume/Objective.vue";
 import Skills from "@/components/resume/Skills.vue";
+import Contact from "@/components/resume/Contact.vue";
 
 const jobL = new jobList();
 const jobs = jobL.list;
 
 const email = ref("nmogbo2001@gmail.com");
-const number = ref("(312) 857-5427");
+const number = ref("+353 873889464");
 const linkedin = ref("https://www.linkedin.com/in/mogbonkem2001/");
 </script>
 
@@ -51,7 +52,8 @@ const linkedin = ref("https://www.linkedin.com/in/mogbonkem2001/");
             </v-col>
           </v-col>
           <v-col cols="12" sm="4" md="4" lg="4" xl="4" class="second-col">
-            <div class="mt-4 ml-1 contact">
+            <contact :number="number" :email="email" :linkedin="linkedin" />
+            <!-- <div class="mt-4 ml-1 contact">
               <span><v-icon class="mr-2">mdi-phone</v-icon>{{ number }}</span>
               <br />
               <span
@@ -59,10 +61,10 @@ const linkedin = ref("https://www.linkedin.com/in/mogbonkem2001/");
                 >{{ email }}</span
               >
               <br />
-              <!-- <span
+              <span
                 ><v-icon class="mr-2">mdi-linkedin</v-icon>{{ linkedin }}</span
-              > -->
-            </div>
+              >
+            </div> -->
             <h3>EDUCATION</h3>
             <v-col cols="12" v-for="ed in schools" :key="ed">
               <ed-section
@@ -75,7 +77,7 @@ const linkedin = ref("https://www.linkedin.com/in/mogbonkem2001/");
 
             <h3>SKILLS</h3>
             <v-col cols="12">
-              <skills :skills="skills" style="font-size: 18px" />
+              <skills :skills="skills_grouped" style="font-size: 18px" />
             </v-col>
           </v-col>
         </v-row>
