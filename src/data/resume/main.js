@@ -8,12 +8,12 @@ export const schools = [
     }
 ]
 
-export const objective = "Dedicated Software Engineer with extensive experience in building and managing large Frontend Web Applications, REST APIs and AI Runtime Platforms. Proficient in developing software using multiple programming languages and tools including  TypeScript, Javascript, Python, Git. Known for strong troubleshooting skills, autonomy, and collaborative teamwork. Passionate about problem-solving and contributing to innovative projects that enhance user experiences and drive growth."
+export const objective = "Dedicated Software Engineer with 3+ years of experience developing and maintaining AI infrastructure and web applications. Specialized in Python backend development, cloud infrastructure, and modern frontend frameworks. Strong track record of building high-performance systems, collaborating across teams, and delivering impactful AI-enabled features while balancing technical tradeoffs."
 
 export const skills_grouped = {
-    "Programming Languages": ["JavaScript", "Python", "TypeScript", "Java", "Go", "Terraform", "Scala"],
-    "Tools/Frameworks": ["VueJS", "React", "Gitlab", "Git", "Github CI / CD", "AWS SageMaker",],
-    "Databases": ["MongoDB", "SQL", "DynamoDB"]
+    "Programming Languages": ["JavaScript", "Python", "TypeScript", "Java", "Golang", "Terraform", "Scala"],
+    "Tools/Frameworks": ["VueJS", "React", "Gitlab", "Git", "Github Actions", "CI / CD", "AWS",],
+    "Databases": ["MongoDB", "PostgreSQL", "DynamoDB"]
 }
 
 export const skills = ["JavaScript", "Python", "TypeScript", "Java", "Go", "Terraform", "Scala", "VueJS", "React", "Gitlab", "Git", "Github CI / CD", "AWS SageMaker", "MongoDB", "SQL", "DynamoDB"]

@@ -5,17 +5,19 @@ const jobs = [
       "job_title": "Associate Software Engineer",
       "company_name": "CCC Intelligent Solutions",
       "job_location": "Chicago, IL",
-      "date_range": "August 2022 - Present",
+      "date_range": "August 2022 - January 2025",
       "description_text": [
-        "Developed and designed cloud automation and infrastructure for production environments using the infrastructure management tool, Terraform, and various AWS Cloud products.",
-        "Implemented performance optimization tactics by integrating robust error handling, testing, metrics, and logging capabilities using Python, Terraform, and AWS Cloudwatch.",
-        "Collaborated with my team to develop a cutting-edge AI Platform, with enhanced machine learning capabilities and efficiently handling of high production traffic.",
+        "Built and maintained CI/CD workflows for serverless deployments using Python, improving deployment speed by 60% while maintaining code quality standards.",
+        "Built high-performance asynchronous test infrastructure using Python and Locust, preventing CPU race conditions and improving system monitoring by 50%.",
+        "Architected and maintained a Python and Terraform-based cloud infrastructure on AWS, hosting 30+ models and ensuring high availability and system stability.",
+        "Managed ambiguity in AI project requirements by creating proof-of-concepts and iterative development approaches that delivered tangible results while refining objectives."
       ],
       "technologies_used": [
         "Terraform",
         "AWS",
         "Golang",
-        "Python"
+        "Python",
+        "Kubernetes"
       ]
     }
   },
@@ -27,14 +29,16 @@ const jobs = [
       "job_location": "Chicago, IL",
       "date_range": "February 2022 - August 2022",
       "description_text": [
-        "Designed and delivered web applications utilizing Vue, Javascript and Python; resulting in increased outreach by showcasing  product features and use cases firsthand.",
-        "Built and launched a web app for efficient resource management using Vue, Python, Docker, and Kubernetes, streamlining workflows and enhancing operational efficiency",
-        "Collaborated with cross-functional teams to gather requirements, document specifications, and ensure seamless integration of front-end components with back-end systems."
+        "Developed full-stack web applications using Vue frontend and Python (Flask/FastAPI) backend to create intuitive interfaces for AI tools, increasing user engagement by 25%",
+        "Designed and deployed a Python and Vue resource management app using Flask, Docker, and Kubernetes with role-based access control, streamlining workflows and saving 100+ monthly hours.",
+        "Collaborated with cross-functional teams to translate stakeholder requirements into fully functional front-end and back-end systems, ensuring 100% seamless integration with zero critical bugs at launch",
+        "Made critical technical tradeoffs between feature development speed and code quality, successfully delivering MVP on time while establishing foundation for future enhancements"
       ],
       "technologies_used": [
         "Vue",
         "JavaScript",
-        "Python"
+        "Python",
+        "MongoDB"
       ]
     }
   },
@@ -46,9 +50,9 @@ const jobs = [
       "job_location": "Chicago, IL",
       "date_range": "June 2021 - August 2021",
       "description_text": [
-        "Conducted independent research project on adopting a new modern web stack based on TypeScript to an existing reference architecture.",
-        "Implemented new UI functionality for a web application, using React, TypeScript and Django backend to increase application productivity.",
-        "Demonstrated proficiency in cloud computing services by utilizing Google Cloud Platform as a development environment.",
+        "Built full stack ReactJS and TypeScript UI components for a Hospital Patient management site with a Django, PostgreSQL backend, improving app productivity by 15%.",
+        "Spearheaded the adoption of a modern web stack (TypeScript), reducing technical debt by 20% and increasing code maintainability by 30%.",
+        "Utilized Google Cloud Platform for backend deployment, gaining hands-on experience with cloud infrastructure for web applications.",
       ],
       "technologies_used": [
         "JavaScript",
