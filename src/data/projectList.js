@@ -13,14 +13,15 @@ const projects = [
     }
   },
   {
-    "name": "Portfolio",
-    "github": "https://github.com/MinellaPersonalProjects/secretweb_frontend",
+    "name": "Birthday App",
+    "github": "https://happy-60th-birthday.netlify.app",
     "description": {
-      "image": "https://i.imgur.com/4z9Z0AG.png",
-      "text": "A dynamically designed portfolio site, meticulously crafted using VueJS, showcasing a range of my professional skills and featured projects.",
+      "image": "https://imgur.com/71VCFCf",
+      "text": "A dynamically designed birthday site, where users from around the world can send in birthday wishes to celebrant.",
       "technologies": [
-        "Vue 3",
-        "JavaScript",
+        "Nextjs",
+        "TypeScript",
+        "React"
       ]
     }
   },
