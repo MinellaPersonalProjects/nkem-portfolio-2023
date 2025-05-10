@@ -7,9 +7,9 @@
     </template>
     <v-spacer></v-spacer>
     <template v-slot:append>
-      <v-btn variant="outlined" color="#FF66CC" class="btn" @click="downloadPDF"
-        >Download<v-icon>mdi-download</v-icon></v-btn
-      >
+      <v-btn variant="outlined" color="#FF66CC" class="btn" to="/"
+        ><v-icon class="mr-1">mdi-home</v-icon>Home
+      </v-btn>
     </template>
   </v-app-bar>
 </template>
